@@ -10,7 +10,7 @@ GLOBAL Stylesheet --------------------------------------------------------------
 ----------------------------------------------------------------------------- */
 
 body {
-	background: #57b100;
+	background: #70b222;
 	color: #FFF;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 150px auto;
@@ -96,8 +96,7 @@ ul li a:active {
 
 #footer {
   background: #0a1400;
-  border-top: 3px #336800 solid;
-	text-align: left;
+  border-top: 2px #336800 solid;
 	bottom: 0;
 	left: 0;
 	padding: 15px 0 10px 0;
@@ -108,10 +107,11 @@ ul li a:active {
 
 #footer p {
   font-size: 14px;
-  color: #598032;
+  color: #456427;
   letter-spacing: 0;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 22px;
+  text-align: center;
 }
 
 #footer a {
