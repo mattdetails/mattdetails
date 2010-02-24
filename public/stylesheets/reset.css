@@ -66,7 +66,7 @@ See http://www.positioniseverything.net/easyclearing.html
 and http://www.456bereastreet.com/archive/200603/new_clearing_method_needed_for_ie7/
 */
 
-.clearfix:after {
+.clear:after {
 	content: ".";
 	clear: both;
 	height: 0;
@@ -74,5 +74,5 @@ and http://www.456bereastreet.com/archive/200603/new_clearing_method_needed_for_
 	display: block;
 	}
 
-.clearfix {display:inline-block;}
-.clearfix {display:block;}
+.clear {display:inline-block;}
+.clear {display:block;}
