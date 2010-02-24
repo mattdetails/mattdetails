@@ -3,6 +3,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+body#home #nav ul li#home a, body#about #nav ul li#about a {
+  background: #ac0000;
+  color: #FFF;
+}
+
 #nav {
   background: #CCC;
   padding: 10px;

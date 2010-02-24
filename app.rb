@@ -9,3 +9,7 @@ get '/sc2app' do
   erb :sc2app
 end
 
+get '/about' do
+  erb :about
+end
+
