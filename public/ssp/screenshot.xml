@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery title="Standalone example" description="Slideshow example demonstrating event listeners.">
+    <album id="ssp" lgPath="gallery/album1/images/" tnPath="gallery/album1/thumb/" title="Album One" description="Description of Album One" tn="gallery/album1/preview.jpg">
+        <img src="1.jpg" id="id1" title="This is an image title" caption="This is an image caption" link="gallery/album1/images/1.jpg" target="_blank" pause="true" />
+		<img src="2.jpg" id="id2" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="3.jpg" id="id3" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="4.jpg" id="id4" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="5.jpg" id="id5" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="6.jpg" id="id6" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="7.jpg" id="id7" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="8.jpg" id="id8" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="9.jpg" id="id9" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="10.jpg" id="id10" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="11.jpg" id="id11" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="12.jpg" id="id12" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" /> 
+		<img src="13.jpg" id="id13" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+		<img src="14.jpg" id="id14" title="This is an image title" caption="This is an image caption" link="http://slideshowpro.net/" target="_blank" pause="" />
+    </album>
+	<album id="ssp2" lgPath="gallery/album2/video/" title="Album Two" description="Video example" tn="gallery/album2/preview.jpg">
+        <img src="1.f4v" id="id1" tn="gallery/album2/thumb/1.jpg" title="This is a video title" caption="This is a video playing in SlideShowPro" link="" target="_blank" pause="" vidpreview="gallery/album2/video/1_preview.png" />
+    </album>
+</gallery>

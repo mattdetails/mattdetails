@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery title="Standalone example" description="Slideshow example demonstrating event listeners.">
+	<album id="ssp2" lgPath="gallery/album2/video/" title="Album Two" description="Video example" tn="gallery/album2/preview.jpg">
+        <img src="1.f4v" id="id1" tn="gallery/album2/thumb/1.jpg" title="This is a video title" caption="This is a video playing in SlideShowPro" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/1_preview.png" />
+    </album>
+</gallery>

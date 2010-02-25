@@ -1,0 +1,59 @@
+body {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  max-height: 3000px;
+  background: transparent url(../images/bc2/bc2_bg2.jpg) center top no-repeat fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+#logo h1 {
+  width: 599px;
+  height: 174px;
+  background: transparent url(../images/bc2/bc2_logo.png) 0 0 no-repeat;
+  text-indent: -9999px;
+  margin: 50px auto;
+}
+
+.pod {
+  margin: 50px 0 50px 0;
+  background: #000;
+}
+
+.pod .bd {
+  padding: 20px;
+}
+
+.pod .bd p {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.video, .screenshots  {
+  background: transparent;
+}
+
+.video h1 {
+  width: 129px;
+  height: 42px;
+  background: transparent url(../images/bc2/videos_hdr.png) 0 0 no-repeat;
+  text-indent: -9999px;
+}
+
+.screenshots h1 {
+  width: 242px;
+  height: 42px;
+  background: transparent url(../images/bc2/screenshots_hdr.png) 0 0 no-repeat;
+  text-indent: -9999px;
+}
+
+.video #video_content, .screenshots #screenshot_content {
+  padding: 20px;
+  background: #000;
+}
