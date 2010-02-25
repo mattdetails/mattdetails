@@ -5,11 +5,16 @@ body {
   max-height: 3000px;
   background: transparent url(../images/bc2/bc2_bg2.jpg) center top no-repeat fixed;
   font-family: Helvetica, Arial, sans-serif;
+  padding: 25px 0 25px 0;
 }
 
 #wrapper {
-  width: 920px;
+  width: 1000px;
   margin: 0 auto;
+}
+
+#logo {
+  margin: 25px 0 0 0;
 }
 
 #logo h1 {
@@ -17,25 +22,181 @@ body {
   height: 174px;
   background: transparent url(../images/bc2/bc2_logo.png) 0 0 no-repeat;
   text-indent: -9999px;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 .pod {
-  margin: 50px 0 50px 0;
-  background: #000;
+}
+
+.pod .hd {
+  width: 1000px;
+  height: 100px;
+  background: transparent url(../images/bc2/pod_top.png) center bottom no-repeat;
+}
+
+.pod .ft {
+  width: 1000px;
+  height: 100px;
+  background: transparent url(../images/bc2/pod_bottom.png) center top no-repeat;
 }
 
 .pod .bd {
-  padding: 20px;
+  width: 1000px;
+  background: transparent url(../images/bc2/pod_bd.png) center center repeat-y;
 }
 
 .pod .bd p {
   color: #FFF;
   font-size: 20px;
   line-height: 40px;
+  padding: 10px 0 10px 0;
+}
+
+.pod .bd .inner_bd {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.intro #disclaimer {
+  width: 617px;
+  height: 18px;
+  background: transparent url(../images/bc2/bc_disclaim.png) 0 0 no-repeat;
+  text-indent: -99999px;
+  position: relative;
+  float: left;
+  top: 65px;
+  left: 100px;
+}
+
+.intro h1 {
+  width: 186px;
+  height: 35px;
+  background: transparent url(../images/bc2/bc_hdr.png) 0 0 no-repeat;
+  text-indent: -9999px;
+}
+
+.intro #bc_rank {
+  width: 172px;
+  height: 164px;
+  background: transparent url(../images/bc2/bc_emblem.png) 0 0 no-repeat;
+  float: right;
+  position: relative;
+  right: 10px;
+}
+
+
+#badges #pins {
+  background: #000 url(../images/bc2/left_arrow.png) 10px center no-repeat;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  float: left;
+  height: 74px;
+  padding: 0 15px 0 145px;
+  position: relative;
+  left: 100px;
+}
+
+#badges #pins span.award_img {
+  width: 130px;
+  height: 120px;
+  background: transparent url(../images/bc2/pins.png) 0 0 no-repeat;
+  display: block;
+  float: left;
+  position: absolute;
+  left: -75px;
+  top: -30px;
+}
+
+#badges #insig {
+  background: #000 url(../images/bc2/right_arrow.png) 215px center no-repeat;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  float: right;
+  height: 74px;
+  padding: 0 145px 0 15px;
+  position: relative;
+  right: 100px;
+}
+
+#badges #insig span.award_img {
+  width: 187px;
+  height: 151px;
+  background: transparent url(../images/bc2/insignias.png) 0 0 no-repeat;
+  display: block;
+  float: right;
+  position: absolute;
+  right: -135px;
+  top: -40px;
+}
+
+#badges .awards {
+  top: -55px;
+}
+
+#badges .awards h1 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  margin: 10px 0 5px 0;
+}
+
+#badges .awards span {
+  color: #FFF;
+  font-size: 14px;
+}
+
+#badges .awards a {
+  width: 88px;
+  height: 22px;
+  background: transparent url(../images/bc2/btn_moreinfo.png) 0 0 no-repeat;
+  text-indent: -99999px;
+  display: block;
+  float: right;
+  margin: -5px 0 0 15px;
+}
+
+#badges .awards a:hover {
+  background-position: bottom;
+}
+
+.tips h1 {
+  width: 222px;
+  height: 35px;
+  background: transparent url(../images/bc2/tips_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+}
+
+.tips ul {
+  padding: 20px 0 0 0;
+}
+
+.tips ul li {
+  color: #FFF;
+  padding: 10px 0 10px 0;
+}
+
+.tips ul li h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 13px 0 0 60px;
+  background: transparent url(../images/bc2/tips_icon.png) 0 0 no-repeat;
+}
+
+.tips ul li em#xbox_a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: transparent url(../images/bc2/xboxa_icon.png) 0 0 no-repeat;
+  position: relative;
+  top: 7px;
 }
 
 .video, .screenshots  {
+  width: 920px;
+  margin: 0 auto;
   background: transparent;
 }
 
@@ -57,3 +218,20 @@ body {
   padding: 20px;
   background: #000;
 }
+
+.good h1 {
+  width: 174px;
+  height: 38px;
+  background: transparent url(../images/bc2/good_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+}
+
+.bad h1 {
+  width: 149px;
+  height: 38px;
+  background: transparent url(../images/bc2/bad_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+}
+
+
+
