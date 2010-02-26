@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery title="Standalone example" description="Slideshow example demonstrating event listeners.">
-  <album title="Bad Company 2" description="Battlefield: Bad Company 2 Screemshots" lgpath="gallery/album/large/" tnpath="gallery/album/thumb/" tnsmpath="gallery/album/thumbsm/" fspath="gallery/album/fs/" tn="">
+  <album title="Bad Company 2" description="Battlefield: Bad Company 2 Screemshots" lgpath="http://cssaid.net/bc2_ss/" tnpath="gallery/album/thumb/" tnsmpath="gallery/album/thumbsm/" fspath="http://cssaid.net/bc2_ss/" tn="">
   <img src="bfbc2screenshot8.jpg" title="" caption="" link=""/>
   <img src="bfbc2genscrntracersart.jpg" title="" caption="" link=""/>
   <img src="bfbc2genscrntgs02.jpg" title="" caption="" link=""/>
