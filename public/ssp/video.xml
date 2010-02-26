@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery title="Standalone example" description="Slideshow example demonstrating event listeners.">
 	<album id="ssp2" lgPath="gallery/album2/video/" title="Album Two" description="Video example" tn="gallery/album2/preview.jpg">
-        <img src="1.f4v" id="id1" tn="gallery/album2/thumb/1.jpg" title="This is a video title" caption="This is a video playing in SlideShowPro" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/1_preview.png" />
-    </album>
+    <img src="bc2moments1.mp4" id="id1" tn="gallery/album2/thumb/video_1.jpg" title="" caption="" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/1_preview.png" />
+    <img src="bc2_teaser.flv" id="id2" tn="gallery/album2/thumb/video_2.jpg" title="" caption="" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/2_preview.jpg" />
+    <img src="bc2_squad1.flv" id="id3" tn="gallery/album2/thumb/video_3.jpg" title="" caption="" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/3_preview.jpg" />
+    <img src="bc2_squad2.flv" id="id4" tn="gallery/album2/thumb/video_4.jpg" title="" caption="" link="" target="_blank" pause="true" vidpreview="gallery/album2/video/4_preview.jpg" />
+ </album>
 </gallery>
