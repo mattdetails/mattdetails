@@ -4,9 +4,20 @@ body {
   padding: 25px 0 25px 0;
 }
 
+a, a:visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
 #wrapper {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 #logo {
@@ -231,6 +242,90 @@ body {
   width: 149px;
   height: 38px;
   background: transparent url(../images/bc2/bad_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+}
+
+.bio h1 {
+  width: 343px;
+  height: 38px;
+  background: transparent url(../images/bc2/author_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+  margin: 0 0 20px 0;
+}
+
+.bio img {
+  float: left;
+  background: #222;
+  padding: 1px;
+  border: 7px #1b1b1b solid;
+  -moz-border-radius: 7px;
+  margin: 0 20px 0 0;
+}
+
+.bio p {
+  float: left;
+}
+
+.bio #bio_web {
+  width: 330px;
+}
+
+.bio #bio_web h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  color: #FFF;
+  margin: 20px 0 10px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px #222 solid;
+}
+
+.bio #bio_web p {
+  padding: 0;
+  float: none;
+  line-height: 16px;
+}
+
+.bio #bio_web p a {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  background: #111;
+  padding: 9px 10px 5px 10px;
+  -moz-border-radius: 3px;
+  margin: 3px 0 3px 0;
+}
+
+.bio #bio_web p a:hover {
+  text-decoration: none;
+  color: #333;
+  background: #FFF;
+}
+
+.thx2 h1 {
+  width: 296px;
+  height: 35px;
+  background: transparent url(../images/bc2/thxalso_hdr.png) 0 0 no-repeat;
+  text-indent: -99999px;
+  margin: 0 0 10px 0;
+}
+
+.thx2 .bd p {
+  padding: 0;
+}
+
+#thanks {
+  margin: 0 0 0 -55px;
+}
+
+#thanks a {
+  width: 1084px;
+  height: 459px;
+  background: transparent url(../images/bc2/bctwo_thanks.png) 0 0 no-repeat;
+  display: block;
   text-indent: -99999px;
 }
 
