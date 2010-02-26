@@ -192,9 +192,9 @@ body {
 }
 
 .video, .screenshots  {
-  width: 920px;
-  margin: 0 auto;
-  background: transparent;
+  width: 1143px;
+  margin: 0 0 0 -50px;
+  background: transparent url(../images/bc2/media_bg.png) 0 0 no-repeat;
 }
 
 .video h1 {
@@ -211,9 +211,13 @@ body {
   text-indent: -9999px;
 }
 
+.video h1, .screenshots h1 { 
+  margin: 0 0 0 120px;
+}
+
 .video #video_content, .screenshots #screenshot_content {
   padding: 20px;
-  background: #000;
+  margin: 55px 0 120px 100px;
 }
 
 .good h1 {
