@@ -1,3 +1,15 @@
+/* 
+SCREEN Stylesheet ---------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------- Feel Free to look around my CSS files.  I don't mind.  That's how I learned. --------
+-------------------------- But do not steal my designs. Thanks ------------------------------
+---------------------------------------------------------------------------------------------
+*/
+
+/* Global Styles
+---------------------------------------------------------------------------------------------
+*/
+
 body {
   background: transparent url(http://cssaid.net/bc2/bc2_bg2.jpg) center top no-repeat fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -15,42 +27,36 @@ a:hover {
 }
 
 #wrapper {
-  width: 1000px;
   margin: 0 auto;
   margin-bottom: 100px;
+  width: 1000px;
 }
 
 #logo {
   margin: 25px 0 0 0;
 }
 
-#logo h1 {
-  width: 599px;
-  height: 174px;
-  background: transparent url(../images/bc2/bc2_logo.png) 0 0 no-repeat;
-  text-indent: -9999px;
-  margin: 25px auto;
-}
 
-.pod {
-}
+/* Global Pod Styles
+---------------------------------------------------------------------------------------------
+*/
 
 .pod .hd {
-  width: 1000px;
-  height: 100px;
   background: transparent url(../images/bc2/pod_top.png) center bottom no-repeat;
+  height: 100px;
+  width: 1000px;
 }
 
 .pod .ft {
-  width: 1000px;
-  height: 100px;
   background: transparent url(../images/bc2/pod_bottom.png) center top no-repeat;
+  height: 100px;
+  width: 1000px;
 }
 
 
 .pod .bd {
-  width: 1000px;
   background: transparent url(../images/bc2/pod_bd.png) center center repeat-y;
+  width: 1000px;
 }
 
 .pod .bd p {
@@ -61,93 +67,85 @@ a:hover {
 }
 
 .pod .bd .inner_bd {
-  width: 800px;
   margin: 0 auto;
+  width: 800px;
 }
+
+
+/* Intro Section
+---------------------------------------------------------------------------------------------
+*/
 
 .intro #disclaimer {
-  width: 617px;
-  height: 18px;
   background: transparent url(../images/bc2/bc_disclaim.png) 0 0 no-repeat;
-  text-indent: -99999px;
-  position: relative;
   float: left;
-  top: 65px;
+  height: 18px;
   left: 100px;
-}
-
-.intro h1 {
-  width: 186px;
-  height: 35px;
-  background: transparent url(../images/bc2/bc_hdr.png) 0 0 no-repeat;
-  text-indent: -9999px;
+  position: relative;
+  top: 65px;
+  width: 617px;
 }
 
 .intro #bc_rank {
-  width: 172px;
-  height: 164px;
   background: transparent url(../images/bc2/bc_emblem.png) 0 0 no-repeat;
   float: right;
+  height: 164px;
   position: relative;
   right: 10px;
+  width: 172px;
 }
 
+
+/* Reward Buttons
+---------------------------------------------------------------------------------------------
+*/
 
 #badges #pins {
   background: #000 url(../images/bc2/left_arrow.png) 10px center no-repeat;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
   float: left;
   height: 74px;
+  left: 100px;
   padding: 0 15px 0 145px;
   position: relative;
-  left: 100px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
 #badges #pins span.award_img {
-  width: 130px;
-  height: 120px;
   background: transparent url(../images/bc2/pins.png) 0 0 no-repeat;
   display: block;
   float: left;
-  position: absolute;
+  height: 120px;
   left: -75px;
+  position: absolute;
   top: -30px;
+  width: 130px;
 }
 
 #badges #insig {
   background: #000 url(../images/bc2/right_arrow.png) 215px center no-repeat;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
   float: right;
   height: 74px;
   padding: 0 145px 0 15px;
   position: relative;
   right: 100px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
 #badges #insig span.award_img {
-  width: 187px;
-  height: 151px;
   background: transparent url(../images/bc2/insignias.png) 0 0 no-repeat;
   display: block;
   float: right;
+  height: 151px;
+  top: -40px;
   position: absolute;
   right: -135px;
-  top: -40px;
+  width: 187px;
 }
 
 #badges .awards {
   top: -55px;
-}
-
-#badges .awards h1 {
-  color: #FFF;
-  font-weight: bold;
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: -0.5px;
-  margin: 10px 0 5px 0;
 }
 
 #badges .awards span {
@@ -156,25 +154,97 @@ a:hover {
 }
 
 #badges .awards a {
-  width: 88px;
-  height: 22px;
   background: transparent url(../images/bc2/btn_moreinfo.png) 0 0 no-repeat;
-  text-indent: -99999px;
   display: block;
   float: right;
+  height: 22px;
   margin: -5px 0 0 15px;
+  width: 88px;
 }
 
 #badges .awards a:hover {
   background-position: bottom;
 }
 
-.tips h1 {
-  width: 222px;
-  height: 35px;
-  background: transparent url(../images/bc2/tips_hdr.png) 0 0 no-repeat;
-  text-indent: -99999px;
+
+/* Headings
+---------------------------------------------------------------------------------------------
+*/
+
+#badges .awards h1 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: -0.5px;
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
 }
+
+#logo h1 {
+  background: transparent url(../images/bc2/bc2_logo.png) 0 0 no-repeat;
+  height: 174px;
+  margin: 25px auto;
+  width: 599px;
+}
+
+.intro h1 {
+  background: transparent url(../images/bc2/bc_hdr.png) 0 0 no-repeat;
+  height: 35px;
+  width: 186px;
+}
+
+.tips h1 {
+  background: transparent url(../images/bc2/tips_hdr.png) 0 0 no-repeat;
+  height: 35px;
+  width: 222px;
+}
+
+.video h1 {
+  background: transparent url(../images/bc2/videos_hdr.png) 0 0 no-repeat;
+  height: 42px;
+  width: 129px;
+}
+
+.screenshots h1 {
+  background: transparent url(../images/bc2/screenshots_hdr.png) 0 0 no-repeat;
+  height: 42px;
+  width: 242px;
+}
+
+.video h1, .screenshots h1 { 
+  margin: 0 0 0 120px;
+}
+
+.good h1 {
+  background: transparent url(../images/bc2/good_hdr.png) 0 0 no-repeat;
+  height: 38px;
+  width: 174px;
+}
+
+.bad h1 {
+  background: transparent url(../images/bc2/bad_hdr.png) 0 0 no-repeat;
+  height: 38px;
+  width: 149px;
+}
+
+.bio h1 {
+  background: transparent url(../images/bc2/author_hdr.png) 0 0 no-repeat;
+  height: 38px;
+  margin: 0 0 20px 0;
+  width: 343px;
+}
+
+.thx2 h1 {
+  background: transparent url(../images/bc2/thxalso_hdr.png) 0 0 no-repeat;
+  height: 35px;
+  margin: 0 0 10px 0;
+  width: 296px;
+}
+
+
+/* Tips
+---------------------------------------------------------------------------------------------
+*/
 
 .tips ul {
   padding: 20px 0 0 0;
@@ -186,79 +256,49 @@ a:hover {
 }
 
 .tips ul li h2 {
+  background: transparent url(../images/bc2/tips_icon.png) 0 0 no-repeat;
   font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
   padding: 13px 0 0 60px;
-  background: transparent url(../images/bc2/tips_icon.png) 0 0 no-repeat;
 }
 
 .tips ul li em#xbox_a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
   background: transparent url(../images/bc2/xboxa_icon.png) 0 0 no-repeat;
-  position: relative;
+  display: inline-block;
+  height: 28px;
   top: 7px;
+  position: relative;
+  width: 28px;
 }
+
+
+/* Video & Screenshots
+---------------------------------------------------------------------------------------------
+*/
 
 .video, .screenshots  {
-  width: 1143px;
-  margin: 0 0 0 -50px;
   background: transparent url(../images/bc2/media_bg.png) 0 0 no-repeat;
-}
-
-.video h1 {
-  width: 129px;
-  height: 42px;
-  background: transparent url(../images/bc2/videos_hdr.png) 0 0 no-repeat;
-  text-indent: -9999px;
-}
-
-.screenshots h1 {
-  width: 242px;
-  height: 42px;
-  background: transparent url(../images/bc2/screenshots_hdr.png) 0 0 no-repeat;
-  text-indent: -9999px;
-}
-
-.video h1, .screenshots h1 { 
-  margin: 0 0 0 120px;
+  margin: 0 0 0 -50px;
+  width: 1143px;
 }
 
 .video #video_content, .screenshots #screenshot_content {
-  padding: 20px;
   margin: 55px 0 120px 100px;
+  padding: 20px;
 }
 
-.good h1 {
-  width: 174px;
-  height: 38px;
-  background: transparent url(../images/bc2/good_hdr.png) 0 0 no-repeat;
-  text-indent: -99999px;
-}
 
-.bad h1 {
-  width: 149px;
-  height: 38px;
-  background: transparent url(../images/bc2/bad_hdr.png) 0 0 no-repeat;
-  text-indent: -99999px;
-}
-
-.bio h1 {
-  width: 343px;
-  height: 38px;
-  background: transparent url(../images/bc2/author_hdr.png) 0 0 no-repeat;
-  text-indent: -99999px;
-  margin: 0 0 20px 0;
-}
+/* Bio Styles
+---------------------------------------------------------------------------------------------
+*/
 
 .bio img {
   background: #222;
-  padding: 1px;
   border: 7px #1b1b1b solid;
-  -moz-border-radius: 7px;
   margin: 0 20px 0 0;
+  padding: 1px;
+  -moz-border-radius: 7px;
 }
 
 .bio p {
@@ -267,9 +307,9 @@ a:hover {
 }
 
 .bio p#why {
+  color: #999;
   font-size: 16px;
   line-height: 28px;
-  color: #999;
   padding: 0 0 10px 0;
 }
 
@@ -278,33 +318,33 @@ a:hover {
 }
 
 .bio #bio_web h2 {
+  border-bottom: 1px #222 solid;
+  color: #FFF;
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 12px;
   letter-spacing: -0.2px;
-  color: #FFF;
   margin: 20px 0 10px 0;
   padding: 0 0 5px 0;
-  border-bottom: 1px #222 solid;
+  text-transform: uppercase;
 }
 
 .bio #bio_web p {
-  padding: 0;
   float: none;
   line-height: 16px;
+  padding: 0;
   width: auto;
 }
 
 .bio #bio_web p a {
+  background: #111 url(../images/bc2/icon_arrow.png) 8px 8px no-repeat;
   color: #FFF;
+  display: block;
   font-weight: bold;
   font-size: 16px;
-  text-decoration: none;
-  display: block;
-  background: #111 url(../images/bc2/icon_arrow.png) 8px 8px no-repeat;
-  padding: 9px 10px 5px 35px;
-  -moz-border-radius: 3px;
   margin: 3px 0 3px 0;
+  padding: 9px 10px 5px 35px;
+  text-decoration: none;
+  -moz-border-radius: 3px;
 }
 
 .bio #bio_web p a em {
@@ -312,68 +352,67 @@ a:hover {
 }
 
 .bio #bio_web p a:hover em {
+  color: #666;
   display: inline;
   font-size: 12px;
   font-weight: normal;
-  color: #666;
   line-height: 10px;
-  position: relative;
   top: -1px;
+  position: relative;
 }
 
 .bio #bio_web p a:hover {
-  text-decoration: none;
-  color: #000;
-  padding: 9px 10px 5px 10px;
   background: #FFF url(../images/bc2/icon_arrow.png) 98% -19px no-repeat;
+  color: #000;
+  text-decoration: none;
+  padding: 9px 10px 5px 10px;
 }
 
 .bio #bio_web p a:active {
   background: #d2ff00 url(../images/bc2/icon_arrow.png) 98% -19px no-repeat;
 }
 
-.thx2 h1 {
-  width: 296px;
-  height: 35px;
-  background: transparent url(../images/bc2/thxalso_hdr.png) 0 0 no-repeat;
-  text-indent: -99999px;
-  margin: 0 0 10px 0;
-}
+/* Thanks Styles
+---------------------------------------------------------------------------------------------
+*/
 
 .thx2 .bd p {
   padding: 0;
 }
 
 #thanks {
-  
-}
-
-#thanks {
-  margin: 0 0 0 -55px;
-  width: 1084px;
-  height: 459px;
   background: transparent url(../images/bc2/bctwo_thanks.png) 0 0 no-repeat;
   display: block;
-  text-indent: -99999px;
+  height: 459px;
+  margin: -95px 0 -100px -55px;
+  width: 1084px;
 }
 
 #thanks a {
-  position: relative;
-  top: 155px;
-  left: 155px;
-  width: 800px;
   height: 150px;
   display: block;
-  text-indent: -99999px;
+  left: 155px;
+  top: 155px;
+  position: relative;
+  width: 800px;
 }
+
+
+/* Footer
+---------------------------------------------------------------------------------------------
+*/
 
 #footer {
-  width: 100%;
-  height: 160px;
   background: transparent url(../images/bc2/footer_bg.png) 0 0 no-repeat;
-  position: fixed;
-  z-index: 99999;
   bottom: 0;
+  height: 160px;
   left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
 }
 
+#logo h1, .intro #disclaimer, .intro h1, #badges .awards a, .tips h1,
+.video h1, .screenshots h1, .good h1, .bad h1, .bio h1, .thx2 h1, #thanks, #thanks a {
+  text-indent: -9999px;
+}
