@@ -345,13 +345,24 @@ a:hover {
 }
 
 #thanks {
-  margin: 0 0 0 -55px;
+  
 }
 
-#thanks a {
+#thanks {
+  margin: 0 0 0 -55px;
   width: 1084px;
   height: 459px;
   background: transparent url(../images/bc2/bctwo_thanks.png) 0 0 no-repeat;
+  display: block;
+  text-indent: -99999px;
+}
+
+#thanks a {
+  position: relative;
+  top: 155px;
+  left: 155px;
+  width: 800px;
+  height: 150px;
   display: block;
   text-indent: -99999px;
 }
