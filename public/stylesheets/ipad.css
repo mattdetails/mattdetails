@@ -22,7 +22,7 @@ h1 {
   font-size: 45px;
   font-weight: bold;
   color: #4e5257;
-  text-shadow: 1px 1px 0px #EEE;
+  text-shadow: 1px 1px 0px #e4e4e4;
   margin: 40px 0 20px 0;
 }
 
@@ -30,10 +30,19 @@ p {
   font-size: 25px;
   line-height: 35px;
   color: #4e5257;
-  text-shadow: 1px 1px 0px #EEE;
+  text-shadow: 1px 1px 0px #e4e4e4;
   margin: 20px 0 20px 0;
 }
 
 img {
   margin: 20px 0 20px 0;
+}
+
+a:hover img, a:active img {
+  opacity: 0.8;
+}
+
+strong {
+  font-weight: bold;
+  color: #57606a;
 }
