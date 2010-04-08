@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+body {
+  background: #caced3;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a, a:visited {
+  color: #006cb7;
+}
+
+a:hover, a:active {
+  color: #d44b00;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #4e5257;
+  text-shadow: 1px 1px 0px #EEE;
+  margin: 40px 0 20px 0;
+}
+
+p {
+  font-size: 25px;
+  line-height: 35px;
+  color: #4e5257;
+  text-shadow: 1px 1px 0px #EEE;
+  margin: 20px 0 20px 0;
+}
+
+img {
+  margin: 20px 0 20px 0;
+}

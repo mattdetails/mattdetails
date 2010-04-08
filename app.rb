@@ -17,4 +17,8 @@ get '/badcompany2' do
   erb :bc2, :layout => :bc2, :locals => {:body => 'bc2', :style => ''}
 end
 
+get '/ipad' do
+  erb :ipad, :layout => :ipad, :locals => {:body => 'ipad', :style => ''}
+end
+
 
