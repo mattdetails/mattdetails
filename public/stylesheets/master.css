@@ -93,10 +93,37 @@ ul li a:active {
   color: #333;
 }
 
+#ipad {
+  width: 400px;
+  margin: 45px auto;
+  position: relative;
+  left: -13px;
+}
+
+#ipad a {
+  background: transparent url(../images/icon_ipad.png) center left no-repeat;
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  color: #336800;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 46px 0 35px 130px;
+  text-shadow: 1px 1px 0 #95e24b;
+  letter-spacing: -0.5px;
+}
+
+#ipad a:hover {
+  color: #FFF;
+  text-shadow: 1px 1px 0 #336800;
+}
+
+#ipad a:active {
+  position: relative;
+  top: 1px;
+}
 
 #footer {
-  background: #0a1400;
-  border-top: 2px #336800 solid;
 	bottom: 0;
 	left: 0;
 	padding: 15px 0 10px 0;
@@ -107,7 +134,7 @@ ul li a:active {
 
 #footer p {
   font-size: 14px;
-  color: #456427;
+  color: #336800;
   letter-spacing: 0;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 22px;
@@ -115,7 +142,7 @@ ul li a:active {
 }
 
 #footer a {
-  color: #6c9b3e;
+  color: #bfff81;
 }
 
 
