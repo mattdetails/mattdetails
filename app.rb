@@ -21,4 +21,7 @@ get '/ipad' do
   erb :ipad, :layout => :ipad, :locals => {:body => 'ipad', :style => ''}
 end
 
+get '/cookies' do
+  erb :cookies, :layout => :cookies, :locals => {:body => 'cookies', :style => ''}
+end
 

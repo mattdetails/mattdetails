@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+body {
+	background: #FFF;
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Main Structure
+----------------------------------------------------------------------------- */
+#wrapper {
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  background: transparent url(../images/cookies.png) 0 0 no-repeat;
+}
