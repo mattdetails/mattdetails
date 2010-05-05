@@ -123,6 +123,11 @@ ul li a:active {
   top: 1px;
 }
 
+#social_icons {
+  width: 70px;
+  margin: 0 auto;
+}
+
 #footer {
 	bottom: 0;
 	left: 0;
