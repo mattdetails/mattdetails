@@ -10,7 +10,7 @@ GLOBAL Stylesheet --------------------------------------------------------------
 ----------------------------------------------------------------------------- */
 
 body {
-	background: #70b222;
+	background: #dde3e5;
 	color: #FFF;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 150px auto;
@@ -38,23 +38,26 @@ h1 {
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
   text-align: center;
   letter-spacing: -1px;
-  color: #FFF;
+  color: #899497;
+  text-shadow: 0 0 0 #dde3e5;
 }
 
 h2 {
   font-size: 30px;
   text-align: center;
-  color: #336800;
+  color: #899497;
   letter-spacing: 0px;
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
   margin: 0 0 10px 0;
+  text-shadow: 0 0 0 #dde3e5;
 }
 
 p {
   font-size: 18px;
   text-align: center;
-  color: #bfff81;
+  color: #899497;
   font-family: Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 0 #dde3e5;
 }
 
 ul {
@@ -79,18 +82,19 @@ ul li a, ul li a:visited {
   display: block;
   padding: 16px 55px 13px 35px;
   line-height: 13px;
-  color: #336800;
+  color: #899497;
   text-decoration: none;
+  text-shadow: 0 0 0 #FFF;
 }
 
 ul li a:hover {
-  background: #336800 url(../images/icon_out.png) 85% -32px no-repeat;;
+  background: #899497 url(../images/icon_out.png) 85% -32px no-repeat;
   color: #FFF;
 }
 
 ul li a:active {
-  background: #fff000 url(../images/icon_out.png) 85% 16px no-repeat;
-  color: #333;
+  background: #1cb3dc  url(../images/icon_out.png) 85% -32px no-repeat;
+  color: #FFF;
 }
 
 #ipad {
@@ -105,17 +109,16 @@ ul li a:active {
   display: block;
   font-size: 35px;
   font-weight: bold;
-  color: #336800;
+  color: #899497;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 46px 0 35px 130px;
-  text-shadow: 1px 1px 0 #95e24b;
+  text-shadow: 1px 1px 0 #FFF;
   letter-spacing: -0.5px;
 }
 
 #ipad a:hover {
-  color: #FFF;
-  text-shadow: 1px 1px 0 #336800;
+  opacity: 0.9;
 }
 
 #ipad a:active {
@@ -139,15 +142,17 @@ ul li a:active {
 
 #footer p {
   font-size: 14px;
-  color: #336800;
+  color: #899497;
   letter-spacing: 0;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 22px;
   text-align: center;
+  text-shadow: 0 0 0 #dde3e5;
 }
 
 #footer a {
-  color: #bfff81;
+  color: #899497;
+  text-shadow: 0 0 0 #dde3e5;
 }
 
 
