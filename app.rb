@@ -25,3 +25,7 @@ get '/cookies' do
   erb :cookies, :layout => :cookies, :locals => {:body => 'cookies', :style => ''}
 end
 
+get '/v2' do
+  erb :v2, :layout => :new, :locals => {:body => 'v2', :style => ''}
+end
+
