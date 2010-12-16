@@ -29,3 +29,7 @@ get '/v2' do
   erb :v2, :layout => :new, :locals => {:body => 'v2', :style => ''}
 end
 
+get '/buttons' do
+  erb :buttons, :layout => :buttons, :locals => {:body => 'buttons', :style => ''}
+end
+
