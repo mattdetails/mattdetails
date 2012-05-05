@@ -1,19 +1,8 @@
-/* 
-GLOBAL Stylesheet ---------------------------------------------------------------------------
----------------------------------------------------------------------------------------------
-------- Feel Free to look around my CSS files.  I don't mind.  That's how I learned. --------
--------------------------- But do not steal my designs. Thanks ------------------------------
----------------------------------------------------------------------------------------------
-*/
-
-/* Globals
------------------------------------------------------------------------------ */
-
 body {
 	background: #222;
 	color: #FFF;
 	font-family: Helvetica, Arial, sans-serif;
-	margin: 0 auto;
+	margin: 15% auto;
 }
 
 a, a:visited {
@@ -30,54 +19,7 @@ a:active {
   color: #fff000;
 }
 
-/* Main Structure
------------------------------------------------------------------------------ */
-
-ul#nav {
-  width: 360px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 125px;
-}
-
-ul#nav li {
-  float: left;
-  display: block;
-  margin: 0 5px 0 5px;
-}
-
-ul#nav li a {
-  text-decoration: none;
-  text-shadow: 1px 1px 0 rgba(0,0,0, 0.4);
-  color: rgba(256,256,256, 0.2);
-  font-size: 13px;
-  font-weight: bold;
-  padding: 5px;
-  display: block;
-  -moz-border-radius: 7px;
-  -moz-border-radius-topleft: 0;
-  -moz-border-radius-topright: 0;
-  -webkit-border-bottom-right-radius: 7px;
-  -webkit-border-bottom-left-radius: 7px;
-}
-
-ul#nav li a:hover {
-  text-shadow: 1px 1px 0 rgba(0,0,0, 0.9);
-  color: #e2d376;
-}
-
-
-h1 a {
-  width: 228px;
-  height: 228px;
-  display: block;
-  text-indent: -99999px;
-  background: transparent url(../images/logo.png) 0 0 no-repeat;
-  margin: 0 auto;
-}
-
-h1 a:hover {
-  background-position: 0 -228px;
+#wrapper {
 }
 
 h2 {
@@ -86,44 +28,7 @@ h2 {
   background: transparent url(../images/name.png) 0 0 no-repeat;
   display: block;
   text-indent: -99999px;
-  margin: 45px auto;
-}
-
-ul#work {
-  width: 380px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-ul#work li {
-  float: left;
-  display: block;
-  text-align: center;
-  margin: 25px 10px 0 10px;
-}
-
-ul#work li a, ul#work li a:visited {
-  background: #FFF url(../images/icon_out.png) 85% 16px no-repeat;
-  font-size: 20px;
-  font-weight: bold;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  display: block;
-  padding: 16px 55px 13px 35px;
-  line-height: 13px;
-  color: #899497;
-  text-decoration: none;
-  text-shadow: 0 0 0 #FFF;
-}
-
-ul#work li a:hover {
-  background: #899497 url(../images/icon_out.png) 85% -32px no-repeat;
-  color: #FFF;
-}
-
-ul#work li a:active {
-  background: #1cb3dc  url(../images/icon_out.png) 85% -32px no-repeat;
-  color: #FFF;
+  margin: 45px auto 20px auto;
 }
 
 #ipad {
@@ -157,7 +62,7 @@ ul#work li a:active {
 }
 
 ul#social_icons {
-  width: 350px;
+  width: 200px;
   margin: 0 auto;
 }
 
